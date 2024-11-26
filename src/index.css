@@ -1,0 +1,6 @@
+body {
+  margin: 0; /* Removes default margin */
+  background: radial-gradient(circle, #00131f, #03071e); /* Gradient colors */
+  color: white;
+  font-family: "Raleway", sans-serif;
+}

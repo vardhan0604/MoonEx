@@ -1,0 +1,56 @@
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+  }
+  
+  .navbar-logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu li a:hover {
+    color: #e4b40d; /* Hover color for menu links */
+  }
+
+  .navbar-menu li:first-child a {
+    color: #EDD955; /* Background color for Home */
+  }
+  
+  .navbar-wallet-button {
+    background-color: #e4b40d;
+    color: #00131f;
+    border: none;
+    border-radius: 18px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-wallet-button:hover {
+    background-color: #c99c0b;
+  }
+  

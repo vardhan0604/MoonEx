@@ -1,0 +1,7 @@
+.top{
+  background-image: url("./assests/foreground.png");
+  background-size: cover; /* Ensures the image covers the whole container */
+  /* background-position: center;  */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 100vh;
+}
