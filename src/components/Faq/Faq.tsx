@@ -3,7 +3,7 @@
 
 import { useState } from 'react'
 import "./Faq.css"
-import { ChevronDown, ChevronUp, Plus } from 'lucide-react'
+import { ChevronUp, Plus } from 'lucide-react'
 
 
 
@@ -39,11 +39,6 @@ const Faq = () => {
             <div className="faq-question">
               <span>{faqq.question}</span>
               <div className="faq-controls">
-                {faqq.tag && (
-                  <div className="faq-tag">
-                    {faqq.tag}
-                  </div>
-                )}
                 {openIndex === index ? (
                   <ChevronUp className="faq-icon" />
                 ) : (
